@@ -17,9 +17,11 @@ header,
 .nav {
     width: 80%;
     max-width: 1000px;
-    margin: 10px auto;
+    margin: 1px auto;
     background: rgb(245, 238, 238);
-    border-radius: 10%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
 }
 
 .nav ul li {
@@ -27,6 +29,12 @@ header,
     display: inline-block;
     padding: 10px;
     text-align: center;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #000500;
+    display: block;
 }
 
 .nav ul li:hover,
@@ -37,21 +45,16 @@ header,
 
 }
 
-.nav ul li a {
-    text-decoration: none;
-    color: #000500;
 
-}
 
 /*!Fin Menu navegacion*/
 
 /*!Seccion principal*/
 .section {
-    background: red;
     width: 80%;
     max-width: 1000px;
-    margin: auto;
-    position: relative;
+    margin: 70px auto;
+    overflow: hidden;
 }
 
 /**Manejamos la clase .section . article*/
@@ -59,7 +62,6 @@ header,
     width: 60%;
     float: left;
     font-family: 'Times New Roman', Times, serif;
-
 }
 
 .section h1 {
@@ -79,8 +81,39 @@ header,
 }
 
 .section .img img:hover {
-    margin-top: 20px;
     opacity: 1;
     border: 1px solid #fff;
     transform: scale(1.1);
+}
+
+/* ! Fin Seccion principal*/
+/*!Seccion project*/
+.project {
+    width: 100%;
+    max-width: 1000px;
+    border: 1px solid #fff;
+    border-radius: 5%;
+    overflow: hidden;
+    background: rgba(158, 147, 147, 0.466);
+}
+
+.project h2,
+p {
+    text-align: center;
+    padding: 5px;
+}
+
+.project img {
+    margin: 30px 60px;
+    width: 200px;
+    height: 300px;
+    float: left;
+    opacity: .5;
+    border-radius: 5%;
+}
+
+.project img:hover {
+    opacity: 1;
+    transform: scale(1.2);
+    border-radius: 0;
 }
