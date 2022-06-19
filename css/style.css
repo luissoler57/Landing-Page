@@ -95,6 +95,11 @@ header,
 
 /* ! Fin Seccion principal*/
 /*!Seccion project*/
+/*?Se agrega padding arriba, para arreglar la opcion del menu*/
+#project {
+    padding-top: 45px;
+}
+
 .project {
     width: 100%;
     max-width: 1000px;
@@ -123,4 +128,54 @@ p {
     opacity: 1;
     transform: scale(1.2);
     border-radius: 0;
+}
+
+/*!Fin Seccion project*/
+
+/*!Seccion Contact*/
+#contact {
+    padding-top: 20px;
+}
+
+.contact {
+    width: 400px;
+    height: 500px;
+    margin: 40px auto;
+    border: 1px solid #fff;
+    position: relative;
+}
+
+.contact .form {
+    margin: 40px;
+}
+
+.contact h3 {
+    text-align: center;
+    padding: 5px;
+}
+
+.form label,
+.form input,
+.form submit {
+    display: inline-block;
+    margin: 10px;
+}
+
+.form button {
+    width: 100%;
+    margin: 5px auto;
+    padding: 4px;
+    background: #fff;
+    color: #000500;
+}
+
+.form button:hover {
+    transform: scale(1.1);
+    border: 1px solid #fff;
+    background: #2753d8;
+    color: #fff;
+}
+
+.form textarea {
+    resize: none;
 }
