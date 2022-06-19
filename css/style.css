@@ -179,3 +179,64 @@ p {
 .form textarea {
     resize: none;
 }
+
+/*!Fin Seccion Contact*/
+
+/*!About*/
+
+.about {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding: 1%;
+}
+
+.about h3 {
+    font-size: 35px;
+    margin: 10px;
+}
+
+.about p {
+    text-align: justify;
+    margin: 10px;
+}
+
+/*!Fin About*/
+/*!Footer*/
+footer {
+    margin: 50px 0;
+    width: 100%;
+    border: 1px solid #fff;
+}
+
+footer ul {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+
+
+footer ul li {
+    display: inline-block;
+    text-align: center;
+    margin: 10px 80px 10px 10px;
+}
+
+footer ul li:hover {
+    transform: scale(1.1);
+}
+
+footer img {
+    margin: 1%;
+}
+
+footer a {
+    margin: auto;
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:hover {
+    color: rgb(201, 186, 216);
+}
